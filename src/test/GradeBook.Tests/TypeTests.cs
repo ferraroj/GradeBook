@@ -49,6 +49,7 @@ public class TypeTests
     private void GetBookSetName(Book book, string name)
     {
         book = new Book(name);
+        book.Name = name;
     }
 
     [Fact]
